@@ -2,25 +2,23 @@
 #include <math.h>
 
 int main(){
-    float a, b, c, x1, x2, delta;
+    double a, b, c, delta, bah1, bah2;
 
-    scanf("%f %f %f", &a, &b, &c);
+    scanf("%lf %lf %lf", &a, &b, &c);
 
-    delta = sqrt(b*b - 4*a*c);
+    delta = (b*b) - (4*a*c);
 
     if (delta >= 0){
 
-        if (delta == 0)
-        {
-            x1 = (-b)/(2*a);
-            
-            printf("%f", x1);
+        if (delta == 0 || abs(delta) < 0.00001){
+            bah1 = (-b)/(2*a);
+            printf("%.12lf", bah1);
+
         } else{
+            bah1 = (sqrt(delta)-b)/(2*a);
+            bah2 = (-sqrt(delta)-b)/(2*a);
+            printf("%.12lf %.12lf", bah1, bah2);
 
-            x1 = (-b + delta)/2*a;
-            x2 = (-b - delta)/2*a;
-
-            printf("%f %f", x1, x2);
         }
     } else printf("sem raiz");
     
