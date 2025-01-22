@@ -1,0 +1,26 @@
+20 2
+
+Sainz Ferrari
+LeClerc Ferrari
+Russel Mercedes
+Norris McLaren
+Hamilton Mercedes
+Piastri McLaren
+Alonso AstonMartin
+Stroll AstonMartin
+Zhou Sauber
+Magnussen Haas
+Ricciardo RacingBulls
+Tsunoda RacingBulls
+Verstappen RBR
+Albon Willians
+Hulkenberg Haas
+Ocon Alpine
+Gasly Alpine
+Bottas Sauber
+Sargeant Willians 
+Perez RBR
+
+Verstappen Perez Sainz LeClerc Russel Norris Hamilton Piastri Alonso Stroll Magnussen Ricciardo Tsunoda Albon Hulkenberg Ocon Gasly Bottas Sargeant
+Verstappen Perez LeClerc Piastri Alonso Russel Sainz Norris Hamilton Hulkenberg Albon Magnussen Ocon Sargeant Tsunoda Ricciardo Bottas Zhou Stroll Gasly
+
